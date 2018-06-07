@@ -14,4 +14,5 @@ setup(
         'Topic :: Software Development :: Debuggers',
     ],
     keywords='pdb, debug, machine learning',
+    py_modules=['auto_pdb'],
 )
