@@ -1,7 +1,7 @@
 auto_pdb
 --
 
-This module enables automatically starting pdb debugging when an error occurs.
+This module enables automatically starting [pdb](https://docs.python.org/3/library/pdb.html) debugging when an error occurs.
 
 ## Example
 
@@ -23,4 +23,10 @@ IndexError: list index out of range
 > example.py(5)<module>()
 -> y = x[3]
 (Pdb)
+```
+
+## Installation
+
+```sh
+pip install git+https://github.com/raahii/auto_pdb.git
 ```
